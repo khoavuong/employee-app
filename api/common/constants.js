@@ -4,7 +4,7 @@ if (process.env.NODE_ENV && process.env.NODE_ENV === 'development') {
 }
 
 exports.NODE_ENV = process.env.NODE_ENV || 'production';
-exports.PORT = process.env.PORT || 80;
+exports.PORT = process.env.PORT || 2000;
 exports.AWS_PROFILE = process.env.AWS_PROFILE || 'default';
 exports.PHOTOS_BUCKET = process.env.PHOTOS_BUCKET || '';
 exports.DEFAULT_AWS_REGION = process.env.DEFAULT_AWS_REGION || '';
