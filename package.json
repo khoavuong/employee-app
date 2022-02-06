@@ -4,7 +4,7 @@
   "description": "Server for employee directory app",
   "main": "server.js",
   "scripts": {
-    "start": "AWS_ACCESS_KEY_ID=AKIA2CNC4EB75UOKL3FL AWS_SECRET_ACCESS_KEY=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 nodemon server.js",
+    "start": "nodemon server.js",
     "start:dev": "NODE_ENV=development nodemon server.js"
   },
   "author": "",
